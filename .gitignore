@@ -1,0 +1,16 @@
+# Build output
+object/
+build/
+
+# Kernel module build artifacts
+*.o
+*.ko
+*.mod
+*.mod.c
+
+# Kbuild generated files
+.*.cmd
+.*.d
+*.order
+Module.symvers
+modules.order
