@@ -3,9 +3,10 @@
 
 static void __exit exitFunction(void)
 {
-    unregister_chrdev(majorno, "mychardev");
-
     printk(KERN_INFO "Goodbye Kernel\n");
+
+    // static inline void unregister_chrdev(unsigned int major, const char *name)
+    unregister_chrdev(majorno, DEVNAME);
 }
 
-module_exit(exitFunction);
+module_exit(exitFunction); // exitpoint
