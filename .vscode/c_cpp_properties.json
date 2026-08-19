@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Linux Kernel",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/src",
+
+                "/home/harshsr923/kernel/linux-6.17.10/include",
+                "/home/harshsr923/kernel/linux-6.17.10/arch/x86/include",
+
+                "/home/harshsr923/kernel/linux-6.17.10/include/generated",
+                "/home/harshsr923/kernel/linux-6.17.10/arch/x86/include/generated"
+            ],
+            "defines": [
+                "__KERNEL__",
+                "MODULE"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

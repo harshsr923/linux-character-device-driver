@@ -14,10 +14,10 @@ static int __init initFunction(void)
 
     if (majorno == -1)
     {
-        printk(KERN_ERR "register_chrdev failed\n");
+        printk(KERN_ERR "ERROR register_chrdev() failed\n");
         return -1;
     }
-
+    printk(KERN_INFO "majorno : %d\n", majorno);
     return 0;
 }
 
