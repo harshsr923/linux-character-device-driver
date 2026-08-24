@@ -6,4 +6,4 @@
 #define MAJORNO 0
 #endif
 
-extern int majorno; // device driver number given by the kernel
+extern unsigned int majorno; // device driver number given by the kernel

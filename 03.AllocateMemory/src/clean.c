@@ -4,6 +4,7 @@
 static void __exit exitFunction(void)
 {
     printk(KERN_INFO "Goodbye Kernel\n");
+    kfree(scull_dev);
     unregister_chrdev_region(device_no, NOD);
 }
 

@@ -1,5 +1,5 @@
-#include "../include/headers.h"
-#include "../include/declarations.h"
+#include "headers.h"
+#include "declarations.h"
 
 static void __exit exitFunction(void)
 {

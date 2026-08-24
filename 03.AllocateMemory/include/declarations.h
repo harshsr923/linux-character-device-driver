@@ -1,5 +1,6 @@
+// cat /proc/devices | grep "<DEVNAME>" - diff from name given in Makefile
 #ifndef DEVNAME
-#define DEVNAME "mychardev"
+#define DEVNAME "scull"
 #endif
 
 #ifndef MAJORNO
@@ -31,5 +32,4 @@ typedef struct scull_dev{
     // char data[BUF_SIZE]
 }gs_scull_dev;
 
-extern gs_scull_dev dev_number;
-extern 
+extern gs_scull_dev *scull_dev;

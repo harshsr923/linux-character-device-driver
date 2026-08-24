@@ -1,8 +1,8 @@
-#include "../include/headers.h"
-#include "../include/declarations.h"
-#include "../include/file_oprs.h"
+#include "headers.h"
+#include "declarations.h"
+#include "file_oprs.h"
 
-int majorno; // range 1-255
+unsigned int majorno; // range 1-255
 
 static int __init initFunction(void)
 {
